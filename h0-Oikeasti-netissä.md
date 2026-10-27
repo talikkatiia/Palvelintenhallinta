@@ -33,6 +33,11 @@ Storage ja automated backups kohdat skippasin. Operating system kohdassa valitsi
 Network kohdan myös skippasin. Login method valitsin SSH keys. Tein koululla tämän, joten en muista komentoa miten löysin avaimen. Kun olin löytänyt otin yhteyttä palvelimeen onnistuneesti.
 
 ## c)
+Aloitin tekemällä virtuaalipalvelimelleni sudo-käyttäjän omalla nimellä. Ensin lisäsin käyttäjän adduser tiia ja sen jälkeen annoin sudo oikeudet adduser tiia sudo
+<img width="676" height="345" alt="image" src="https://github.com/user-attachments/assets/dfb8d208-6fc2-41ce-ad96-eb54c96414fd" />
+Tämän jälkeen asensin tulimuurin 
+
+
 
 
 ## Lähteet
