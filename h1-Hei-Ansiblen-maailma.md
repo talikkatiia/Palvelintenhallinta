@@ -17,8 +17,7 @@ Karvinen 2026: Hello Ansible:
 - Hallittavalla koneella pitää olla SSH-palvelu ja Python.
 
 ## a) Paikallista
-Asensin Debian 13 h0 tehtävässä: 
-
+Asensin Debian 13 h0 tehtävässä: https://github.com/talikkatiia/Palvelintenhallinta/blob/main/h0-Oikeasti-netiss%C3%A4.md
 
 ## b) Sshecrets
 
