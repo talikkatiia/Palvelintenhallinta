@@ -65,6 +65,13 @@ Tämän jälkeen suoritin komennon: ansible-playbook paketit.yml -K
 
 ## d) File
 
+Tein tiedoston, jonne annoin oikeudeksi 0644. Ensimmäinen 0 normaali tiedosto, 6 omistajan oikeudet eli r + w (4+2), 4 ryhmän oikeudet pelkkä r (4) ja 0 muiden oikeudet eli ei mitään.
+
+<img width="425" height="262" alt="image" src="https://github.com/user-attachments/assets/b0772d32-8f5f-48fa-987d-995d6b42225c" />
+
+<img width="812" height="322" alt="image" src="https://github.com/user-attachments/assets/bfa87033-8977-47e9-bac3-62b7eca178e4" />
+
+
 
 
 
