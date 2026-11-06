@@ -45,6 +45,8 @@ Komennolla: ssh ansible@localhost siirryin ansible käyttäjälle ja suoritin ko
 
 ## b) Antero
 
+Aloitin kopioimalla jo olemassa olevan avaimen komennolla: ssh-copy-id ansible@localhost. Otin yhteyttä komennolla: ssh ansible@localhost ja pääsin ilman salasanaa. 
+
 
 ## c) Package
 
