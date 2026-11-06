@@ -39,13 +39,13 @@ Aloitin luomalla uuden käyttäjän ansiblea varten komennolla: sudo adduser ans
 <img width="530" height="285" alt="image" src="https://github.com/user-attachments/assets/61db7d2f-eef5-4c72-aae0-19af329934df" />
 
 Loin sudoless oikeudet: sudo visudo /etc/sudoers.d/sudoless ja sinne kirjoitin %sudoless ALL = (ALL) NOPASSWD: ALL
-Komennolla: ssh ansible@localhost siirryin ansible käyttäjälle ja suoritin komennon: sudo -k, tämä pakottaa sudon unohtamaan aikaisemman salasanatunnistuksen. Sen jälkeen komento: sudo echo "moikka moi" ja se tulosti kirjoittamani tekstin ilman salasanaa.
+Komennolla: ssh ansible@localhost siirryin ansible käyttäjälle ja suoritin komennon: sudo -k, tämä pakottaa sudon unohtamaan aikaisemman salasanatunnistuksen. Sen jälkeen komento: sudo echo "moikka moi" ja se tulosti kirjoittamani tekstin ilman salasanaa. Kopioin myös jo olemassa olevan avaimen komennolla: ssh-copy-id ansible@localhost. Otin yhteyttä komennolla: ssh ansible@localhost ja pääsin ilman salasanaa.
 
 <img width="436" height="80" alt="image" src="https://github.com/user-attachments/assets/aace9eea-8c34-48db-bef3-639ce396fa9b" />
 
 ## b) Antero
 
-Aloitin kopioimalla jo olemassa olevan avaimen komennolla: ssh-copy-id ansible@localhost. Otin yhteyttä komennolla: ssh ansible@localhost ja pääsin ilman salasanaa. 
+
 
 
 ## c) Package
