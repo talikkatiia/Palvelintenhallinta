@@ -15,7 +15,23 @@ Munroe 2006: xkcd 149: Sandwitch:
 Karvinen 2026: Passwordless Sudo with Ansible:
 - Artikkelin tarkoituksena on automatisoida salasanattoman sudon käyttöönotto, tämän mahdollistaa SSH avain. 
 - Määritykset laitetaan hakemistopolkuun roles/antero/tasks/main.yml -> tekstitiedostoon tulee määritykset -> site.yml tiedostoon lisäys become: true.
-- Tärkeää on oikeuksien määrittäminen / ymmärtäminen mitä ne tekee, jotta ei anna vääriä oikeuksia. 
+- Tärkeää on oikeuksien määrittäminen / ymmärtäminen mitä ne tekee, jotta ei anna vääriä oikeuksia.
+
+Ansiblen sisäänrakennettu dokumentaatio ansible-doc -kommennolla
+**Module:** 
+- Apt-moduulia käytetään ohjelmien asentamiseen, poistamiseen ja hallintaan Debian- ja Ubuntu-pohjaisissa Linux-järjestelmissä.
+ 
+**Optio:**
+- name -> ohjelman nimi, jota käsitellään
+- state -> määrittää ohjelmistopaketin halutun tilan
+- update_cache -> päivittää ohjelmistopakettien listauksen
+ 
+**Examples:**
+- name: Install apache httpd
+   ansible.builtin.apt:
+     name: apache2
+     state: present
+
 
 ## a) Sudoless
 
