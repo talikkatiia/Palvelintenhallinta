@@ -45,13 +45,27 @@ Komennolla: ssh ansible@localhost siirryin ansible käyttäjälle ja suoritin ko
 
 ## b) Antero
 
+Luodaan tiedosto ja kansiot roles/antero/tasks/main.yml
 
+<img width="732" height="337" alt="image" src="https://github.com/user-attachments/assets/47400620-e8aa-4214-993d-6690006f8a50" />
 
+Lisätään site.yml tiedostoon become: true ja rooli
+
+<img width="225" height="132" alt="image" src="https://github.com/user-attachments/assets/039fafd3-4610-4330-90d7-6d75673211e2" />
 
 ## c) Package
 
+Tein paketit.yml tiedoston jonne kirjoitin: 
+
+<img width="416" height="236" alt="image" src="https://github.com/user-attachments/assets/0da35abb-a097-4f66-9dbd-f39b050af91a" />
+
+Tämän jälkeen suoritin komennon: ansible-playbook paketit.yml -K
+
+<img width="822" height="307" alt="image" src="https://github.com/user-attachments/assets/c27bae06-ef5d-4481-adcd-a075e3bc4727" />
 
 ## d) File
+
+
 
 
 ## e) Jotain muuta 
