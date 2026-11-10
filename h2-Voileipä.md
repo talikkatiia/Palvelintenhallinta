@@ -71,12 +71,13 @@ Tein tiedoston, jonne annoin oikeudeksi 0644. Ensimmäinen 0 normaali tiedosto, 
 
 <img width="812" height="322" alt="image" src="https://github.com/user-attachments/assets/bfa87033-8977-47e9-bac3-62b7eca178e4" />
 
-
-
-
-
 ## e) Jotain muuta 
 
+Testasin Ansible ping-moduulin, jolla voidaan testata yhteyttä hallittavaan koneeseen. Moduuli palauttaa onnistuneessa testissä vastauksen pong. Loin tiedoston muuta.yml.
+
+<img width="342" height="112" alt="image" src="https://github.com/user-attachments/assets/bbc68431-5714-4842-90da-9aef315339cc" />
+
+<img width="811" height="302" alt="image" src="https://github.com/user-attachments/assets/607f21bb-26d0-40e4-a23e-63405821844a" />
 
 ## Lähteet
 Karvinen, T. 2026. Sudo without password. Luettavissa: https://terokarvinen.com/passwordless-sudo/ (Luettu: 6.11.2026)
