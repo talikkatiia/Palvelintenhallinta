@@ -11,10 +11,13 @@ Ansible Community Documentation: Handlers: running operations on change:
 - Vaikka useampi tehtävä kutsuisi samaa handleria, handeri suoritetaan vain kerran.
 
 'ansible-doc service':
-- 
-
+- MODULE: Service-moduulilla voidaan hallita Linuxin palveluita Ansiblen avulla, esimerkiksi käynnistää tai pysäyttää palveluita.
+- enabled: Määrittää, käynnistyykö palvelu automaattisesti tietokoneen käynnistyessä.
+- name: Määrittää sen palvelun nimen, jota halutaan hallita.
+- state: Määrittää palvelun tilan. Esimerkiksi started käynnistää palvelun, stopped pysäyttää sen ja restarted käynnistää sen uudelleen.
 
 ## y) Infra-uutiset
+
 
 
 ## a) Apassi
