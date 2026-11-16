@@ -6,7 +6,7 @@ Karvinen 2026: Apache installed with Ansible - quick notes:
 - Apache2-palvelimen avulla voidaan julkaista verkkosivu, joka näkyy osoitteessa http://localhost
 
 Ansible Community Documentation: Handlers: running operations on change:
--
+- 
 
 
 ## y) Infra-uutiset
@@ -23,3 +23,5 @@ Ansible Community Documentation: Handlers: running operations on change:
 
 # Lähteet
 https://terokarvinen.com/apache-ansible/
+
+https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html
