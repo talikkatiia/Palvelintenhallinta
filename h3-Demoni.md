@@ -36,6 +36,11 @@ Testasin komennolla `systemctl status apache2`, että apache toimii. Jonka jälk
 
 Loin uuden kansion `mkdir publicsite` ja sinne tiedoston `nano publicsite/index.html` 
 
+Sitten annoin oikeudet
+
+<img width="440" height="70" alt="image" src="https://github.com/user-attachments/assets/a1401591-955d-4647-ae49-621c26558254" />
+
+
 
 
 
