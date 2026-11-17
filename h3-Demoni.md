@@ -64,6 +64,16 @@ Asensin Nginxin `sudo apt install nginx`. Tämän jälkeen sammutin apachen `sud
 
 <img width="626" height="72" alt="image" src="https://github.com/user-attachments/assets/d0d095da-f04f-41d7-b023-e66e2d0aee9e" />
 
+Muutin nginxin konfiguraatiota `sudo nano /etc/nginx/sites-available/default`
+
+<img width="310" height="34" alt="image" src="https://github.com/user-attachments/assets/fd901718-50d7-4914-bd78-f4455b30bdd4" />
+
+Käynnistin nginxin uudelleen `sudo systemctl restart nginx` avasin http://localhost ja sivu näkyi taas
+
+<img width="576" height="98" alt="image" src="https://github.com/user-attachments/assets/ef569f15-cbc7-4879-b887-6cfadeddae34" />
+
+
+
 
 
 
