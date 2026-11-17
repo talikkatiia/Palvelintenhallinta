@@ -88,7 +88,17 @@ files/default konfigurointi tiedosto
 
 Sitten `nano roles/nginx/tasks/main.yml`
 
-<img width="378" height="222" alt="image" src="https://github.com/user-attachments/assets/83c0c825-e462-4fed-9adc-7c93a791c83f" />
+<img width="377" height="238" alt="image" src="https://github.com/user-attachments/assets/c9830eea-bd96-4198-a741-16bccb98dcc9" />
+
+
+`nano roles/nginx/handlers/main.yml`
+
+<img width="198" height="78" alt="image" src="https://github.com/user-attachments/assets/414a71e9-e2fa-4724-b181-1034c26dc7d3" />
+
+
+Lisäsin site.yml tiedostoon nginx.
+
+
 
 
 
