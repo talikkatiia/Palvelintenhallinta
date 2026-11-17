@@ -22,6 +22,13 @@ Ansible Community Documentation: Handlers: running operations on change:
 
 ## a) Apassi
 
+Aloitin päivittämällä kaiken ja asentamalla apache2.
+''''
+sudo apt-get update
+sudo apt-get upgrade
+sudo install apache2
+''''
+
 
 ## b) Moottorix
 
