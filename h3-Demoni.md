@@ -28,7 +28,16 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt install apache2
 ````
-Testasin 
+Testasin komennolla `systemctl status apache2`, että apache toimii. Jonka jälkeen testasin http://localhost, että sivu näkyy.
+
+<img width="656" height="72" alt="image" src="https://github.com/user-attachments/assets/0772fce4-f94a-4650-9aaf-8cf79b3f5f5f" />
+
+<img width="668" height="252" alt="image" src="https://github.com/user-attachments/assets/94c9784b-a66c-4586-9b14-288866e4eaa7" />
+
+
+
+
+
 
 ## b) Moottorix
 
