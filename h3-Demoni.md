@@ -78,7 +78,21 @@ Sekä edelleen pystyin muokkaamaan sitä toisella käyttäjällä.
 
 ## c) Automoottorix
 
+Ensiksi loin kansiot
+
 <img width="422" height="50" alt="image" src="https://github.com/user-attachments/assets/7c325001-5660-4003-ab86-4be08656f992" />
+
+files/default konfigurointi tiedosto
+
+<img width="366" height="210" alt="image" src="https://github.com/user-attachments/assets/aa4e573d-057c-4066-8a80-289c3a4862d8" />
+
+Sitten `nano roles/nginx/tasks/main.yml`
+
+<img width="378" height="222" alt="image" src="https://github.com/user-attachments/assets/83c0c825-e462-4fed-9adc-7c93a791c83f" />
+
+
+
+
 
 
 # Lähteet
