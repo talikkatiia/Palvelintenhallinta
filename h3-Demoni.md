@@ -22,17 +22,9 @@ Ansible Community Documentation: Handlers: running operations on change:
       name: httpd
       state: started
   ````
-
-
-name: Määrittää palvelun nimeksi httpd.
-
-
-
-state: started: Varmistaa, että palvelu on käynnissä.
-
-
-
-ansible.builtin.service: Käyttää Ansiblen service-moduulia palvelun hallintaan.
+- name: Määrittää palvelun nimeksi httpd.
+- state: started: Varmistaa, että palvelu on käynnissä.
+- ansible.builtin.service: Käyttää Ansiblen service-moduulia palvelun hallintaan.
 
 ## y) Infra-uutiset
 
