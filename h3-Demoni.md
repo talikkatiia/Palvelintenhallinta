@@ -52,11 +52,9 @@ Sitten otin oman sivuni käyttöön `sudo a2ensite publicsite.conf`. Otin apache
 
 <img width="368" height="105" alt="image" src="https://github.com/user-attachments/assets/b46131b6-ae7f-44c3-ae84-e09924fbe846" />
 
+Lopuksi kirjauduin toiselle käyttäjällä ssh ansible@localhost ja kävin tiedostossa `nano /home/tiia/ansible/publicsite/index.html` muokkasin sitä ja se onnistui.
 
-
-
-
-
+<img width="562" height="98" alt="image" src="https://github.com/user-attachments/assets/f8bf3742-50e2-4052-9561-3f6ab995bd6a" />
 
 ## b) Moottorix
 
