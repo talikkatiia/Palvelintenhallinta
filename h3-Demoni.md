@@ -78,6 +78,8 @@ Sekä edelleen pystyin muokkaamaan sitä toisella käyttäjällä.
 
 ## c) Automoottorix
 
+<img width="422" height="50" alt="image" src="https://github.com/user-attachments/assets/7c325001-5660-4003-ab86-4be08656f992" />
+
 
 # Lähteet
 https://terokarvinen.com/apache-ansible/
