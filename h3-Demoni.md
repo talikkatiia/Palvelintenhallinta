@@ -34,7 +34,7 @@ Testasin komennolla `systemctl status apache2`, että apache toimii. Jonka jälk
 
 <img width="668" height="252" alt="image" src="https://github.com/user-attachments/assets/94c9784b-a66c-4586-9b14-288866e4eaa7" />
 
-
+Loin uuden kansion `mkdir publicsite` ja sinne tiedoston `nano publicsite/index.html` 
 
 
 
