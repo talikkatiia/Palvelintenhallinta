@@ -28,7 +28,7 @@ Ansible Community Documentation: Handlers: running operations on change:
 
 ## y) Infra-uutiset
 
-
+Artikkelissa esitellään Infra-työkalu, jolla voidaan hallita keskitetysti käyttäjien pääsyä pilvipalvelimiin ja Kubernetes-järjestelmiin. Tällä voidaan lisätä ja poistaa käyttäjien käyttöoikeuksia yhdestä paikasta. Käyttäjille voidaan antaa vain ne oikeudet, joita he tarvitsevat työssään. Mielenkiintoista on, että järjestelmä ei ole riippuvainen yhdestä palvelimesta. Keskitetty hallinta helpottaa erityisesti suurten järjestelmien ylläpitoa ja parantaa tietoturvaa.
 
 ## a) Apassi
 
@@ -112,3 +112,5 @@ Lisäsin site.yml tiedostoon nginx. Viimeiseksi `ansible-playbook site.yml`
 https://terokarvinen.com/apache-ansible/
 
 https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_handlers.html
+
+Hacker News: https://news.ycombinator.com/item?id=31410688&utm_source=chatgpt.com
