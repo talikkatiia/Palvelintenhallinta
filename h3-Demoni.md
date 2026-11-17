@@ -72,13 +72,9 @@ Käynnistin nginxin uudelleen `sudo systemctl restart nginx` avasin http://local
 
 <img width="576" height="98" alt="image" src="https://github.com/user-attachments/assets/ef569f15-cbc7-4879-b887-6cfadeddae34" />
 
+Sekä edelleen pystyin muokkaamaan sitä toisella käyttäjällä.
 
-
-
-
-
-
-
+<img width="322" height="85" alt="image" src="https://github.com/user-attachments/assets/57cd7dd0-89e4-4704-9c84-140dc96d2d0e" />
 
 ## c) Automoottorix
 
