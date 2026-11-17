@@ -58,6 +58,17 @@ Lopuksi kirjauduin toiselle käyttäjällä ssh ansible@localhost ja kävin tied
 
 ## b) Moottorix
 
+Asensin Nginxin `sudo apt install nginx`. Tämän jälkeen sammutin apachen `sudo systemctl stop apache2`. Katsoin apachen tilan `sudo systemctl status apache2`. Käynnistin myös nginxin `sudo systemctl start nignx` ja katsoin sen tilan samalla tavalla.
+
+<img width="606" height="94" alt="image" src="https://github.com/user-attachments/assets/b644fce6-2976-4303-a00f-87984ac63cde" />
+
+<img width="626" height="72" alt="image" src="https://github.com/user-attachments/assets/d0d095da-f04f-41d7-b023-e66e2d0aee9e" />
+
+
+
+
+
+
 
 ## c) Automoottorix
 
