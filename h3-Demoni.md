@@ -15,6 +15,24 @@ Ansible Community Documentation: Handlers: running operations on change:
 - enabled: Määrittää, käynnistyykö palvelu automaattisesti tietokoneen käynnistyessä.
 - name: Määrittää sen palvelun nimen, jota halutaan hallita.
 - state: Määrittää palvelun tilan. Esimerkiksi started käynnistää palvelun, stopped pysäyttää sen ja restarted käynnistää sen uudelleen.
+- Example
+  ````
+  - name: Start service httpd, if not started
+    ansible.builtin.service:
+      name: httpd
+      state: started
+  ````
+
+
+name: Määrittää palvelun nimeksi httpd.
+
+
+
+state: started: Varmistaa, että palvelu on käynnissä.
+
+
+
+ansible.builtin.service: Käyttää Ansiblen service-moduulia palvelun hallintaan.
 
 ## y) Infra-uutiset
 
@@ -90,20 +108,13 @@ Sitten `nano roles/nginx/tasks/main.yml`
 
 <img width="377" height="238" alt="image" src="https://github.com/user-attachments/assets/c9830eea-bd96-4198-a741-16bccb98dcc9" />
 
-
 `nano roles/nginx/handlers/main.yml`
 
 <img width="198" height="78" alt="image" src="https://github.com/user-attachments/assets/414a71e9-e2fa-4724-b181-1034c26dc7d3" />
 
+Lisäsin site.yml tiedostoon nginx. Viimeiseksi `ansible-playbook site.yml`
 
-Lisäsin site.yml tiedostoon nginx.
-
-
-
-
-
-
-
+<img width="646" height="174" alt="image" src="https://github.com/user-attachments/assets/875a7449-fb23-465b-bb50-3b6abe8816bf" />
 
 # Lähteet
 https://terokarvinen.com/apache-ansible/
