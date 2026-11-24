@@ -60,9 +60,13 @@ Vaihdoin oletus portin 6379 porttiin 7777. Testasin nämä kuitenkin ennen muutt
 
 <img width="661" height="82" alt="image" src="https://github.com/user-attachments/assets/ee9e9c05-2428-4b09-90f9-bd9d939840d0" />
 
-Ajoin ansible playbookin ja konfigurointi kohdalla lukee changed.
+Muutin tasks/main.yml tiedostoa.
 
-<img width="692" height="116" alt="image" src="https://github.com/user-attachments/assets/ea53df46-f03c-4f57-b52a-29ddc80b3e8d" />
+
+
+Ajoin ansible playbookin.
+
+
 
 Testasin uuden portin `redis-cli -p 7777 ping` vastaukseksi tuli PONG. 
 
