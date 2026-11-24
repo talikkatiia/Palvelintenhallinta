@@ -60,19 +60,19 @@ Vaihdoin oletus portin 6379 porttiin 7777. Testasin nämä kuitenkin ennen muutt
 
 <img width="661" height="82" alt="image" src="https://github.com/user-attachments/assets/ee9e9c05-2428-4b09-90f9-bd9d939840d0" />
 
-Muutin tasks/main.yml tiedostoa.
+Muutin tasks/main.yml tiedostoa ja ajoin ansible playbookin.
 
+<img width="330" height="121" alt="image" src="https://github.com/user-attachments/assets/fe669a59-02c2-426e-97ad-3d5911827850" />
 
+Testasin uuden portin `redis-cli -p 7777 ping` vastaukseksi tuli PONG. Ja testasin, ettei käytä enää vanhaa oletus porttia `redis-cli -p 6379 ping`.
 
-Ajoin ansible playbookin.
-
-
-
-Testasin uuden portin `redis-cli -p 7777 ping` vastaukseksi tuli PONG. 
-
-
+<img width="661" height="85" alt="image" src="https://github.com/user-attachments/assets/719649f7-826b-488a-8d2f-958f8b27bfd8" />
 
 ## d) Paikka remonttiin
+
+Rikoin porttiasetuksen redis.conf vaihdoin port 7777 -> port 8888. Ajoin playbookin.
+
+
 
 
 ## e) Idempotentti
