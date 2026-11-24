@@ -42,16 +42,17 @@ Ensiksi loin Redis kansiorakenteen. Loin kansiot yhdellä komennolla `mkdir -p r
 
 <img width="402" height="107" alt="image" src="https://github.com/user-attachments/assets/e0694565-aa84-4b3f-925d-63471cb8eb99" />
 
-Tämän jälkeen tasks/main.yml.
+Tämän jälkeen tasks/main.yml. Tein myös konfigurointi tiedoston.
 
 <img width="337" height="276" alt="image" src="https://github.com/user-attachments/assets/4cbedba7-3416-44c1-8848-1480362e5e15" />
 
+handlers/main.yml
 
+<img width="251" height="87" alt="image" src="https://github.com/user-attachments/assets/60ccbf26-ab5a-4e81-861b-874203f48f73" />
 
+Lisäsin Redis roolin site.yml. Tämän jälkeen ajoin playbookin `ansible-palybook site.yml --ask-become-pass`
 
-
-
-
+<img width="805" height="257" alt="image" src="https://github.com/user-attachments/assets/24c92808-1703-41cd-8297-e5cb278169e3" />
 
 ## c) Asetus
 
