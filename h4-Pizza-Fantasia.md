@@ -18,6 +18,28 @@ Karvinen 2023
 
 ## a) Räpylä
 
+Aluksi päivitin, jonka jälkeen asennetaan Redis. 
+````
+sudo apt update
+````
+````
+sudo apt install redis-server
+````
+Tämän jälkeen käynnistin sen ja asetin sen käynnistymään automaattisesti tietokoneen käynnistyessä.
+````
+sudo systemctl start redis-server
+````
+````
+sudo systemctl enable redis-server
+````
+Testasin, että Redis toimii ja vastaukseksi tuli PONG. Eli se on käynnissä ja toimiva.
+````
+redis-cli ping
+````
+
+<img width="387" height="42" alt="image" src="https://github.com/user-attachments/assets/609d9e78-b633-4be3-a4c3-37a73f933399" />
+
+
 
 ## b) Automaatti
 
