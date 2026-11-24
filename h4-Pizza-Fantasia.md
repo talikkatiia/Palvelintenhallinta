@@ -82,7 +82,14 @@ Testasin vielä aiemman komennon.
 
 ## e) Idempotentti
 
+Ajoin playbookin ja ansible ei tehnyt muutoksia vaan tuloksena oli changed=0
+
+<img width="965" height="72" alt="image" src="https://github.com/user-attachments/assets/7516bf2b-026e-4331-821b-885e46a2a2f0" />
 
 ## Lähteet
 
 Karvinen, T. 2023. Väitöskirja. Configuration Management of Distributed Systems over Unreliable and Hostile Networks. University of Westminster
+
+Redis https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/install-redis-on-linux/
+
+ChatGPT https://chatgpt.com/
