@@ -32,14 +32,9 @@ sudo systemctl start redis-server
 ````
 sudo systemctl enable redis-server
 ````
-Testasin, että Redis toimii ja vastaukseksi tuli PONG. Eli se on käynnissä ja toimiva.
-````
-redis-cli ping
-````
+Testasin, että Redis toimii `redis-cli ping` ja vastaukseksi tuli PONG. Eli se on käynnissä ja toimiva.
 
 <img width="387" height="42" alt="image" src="https://github.com/user-attachments/assets/609d9e78-b633-4be3-a4c3-37a73f933399" />
-
-
 
 ## b) Automaatti
 
