@@ -38,6 +38,20 @@ Testasin, että Redis toimii `redis-cli ping` ja vastaukseksi tuli PONG. Eli se 
 
 ## b) Automaatti
 
+Ensiksi loin Redis kansiorakenteen. Loin kansiot yhdellä komennolla `mkdir -p roles/redis/tasks roles/redis/handlers roles/redis/files` tarkistin, että ne löytyvät nyt `tree roles/redis`
+
+<img width="402" height="107" alt="image" src="https://github.com/user-attachments/assets/e0694565-aa84-4b3f-925d-63471cb8eb99" />
+
+Tämän jälkeen tasks/main.yml.
+
+<img width="337" height="276" alt="image" src="https://github.com/user-attachments/assets/4cbedba7-3416-44c1-8848-1480362e5e15" />
+
+
+
+
+
+
+
 
 ## c) Asetus
 
