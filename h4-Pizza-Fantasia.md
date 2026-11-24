@@ -56,6 +56,17 @@ Lisäsin Redis roolin site.yml. Tämän jälkeen ajoin playbookin `ansible-palyb
 
 ## c) Asetus
 
+Vaihdoin oletus portin 6379 porttiin 7777. Testasin nämä kuitenkin ennen muuttamista.
+
+<img width="661" height="82" alt="image" src="https://github.com/user-attachments/assets/ee9e9c05-2428-4b09-90f9-bd9d939840d0" />
+
+Ajoin ansible playbookin ja konfigurointi kohdalla lukee changed.
+
+<img width="692" height="116" alt="image" src="https://github.com/user-attachments/assets/ea53df46-f03c-4f57-b52a-29ddc80b3e8d" />
+
+Testasin uuden portin `redis-cli -p 7777 ping` vastaukseksi tuli PONG. 
+
+
 
 ## d) Paikka remonttiin
 
