@@ -72,8 +72,13 @@ Testasin uuden portin `redis-cli -p 7777 ping` vastaukseksi tuli PONG. Ja testas
 
 Rikoin porttiasetuksen redis.conf vaihdoin port 7777 -> port 8888. Ajoin playbookin.
 
+<img width="472" height="42" alt="image" src="https://github.com/user-attachments/assets/2daf759a-34db-4fdf-8cba-43d160036035" />
 
+<img width="430" height="60" alt="image" src="https://github.com/user-attachments/assets/a5ef860f-1992-4583-8bd1-1c2bf27de75b" />
 
+Testasin vielä aiemman komennon.
+
+<img width="487" height="41" alt="image" src="https://github.com/user-attachments/assets/5aca95e9-f0f4-465e-a7aa-b8230262af14" />
 
 ## e) Idempotentti
 
